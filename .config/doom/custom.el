@@ -4,8 +4,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
-;;(require elfeed-goodies)
-;;(elfeed-goodies/setup)
  '(elfeed-feeds
    '("https://www.zdnet.com/sitemaps/news.xml" "https://www.omgubuntu.co.uk/feed"
      "https://www.gamingonlinux.com/article_rss.php"
@@ -28,7 +26,8 @@
      "https://www.youtube.com/feeds/videos.xml?channel_id=UCGAmpBtWveYp0-3v9npnhvQ"
      "https://www.youtube.com/feeds/videos.xml?channel_id=UCgGw5WSITWvDISNjydXPW3A"
      "https://videos.lukesmith.xyz/feeds/videos.xml?videoChannelId=2"))
- '(package-selected-packages '(systemd vterm)))
+ '(package-selected-packages '(systemd vterm))
+ '(vlf-application 'dont-ask))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
