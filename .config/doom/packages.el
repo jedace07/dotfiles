@@ -49,3 +49,4 @@
 ;; (unpin! t)
 (package! vlf)
 (package! nov)
+(package! pandoc-mode)
