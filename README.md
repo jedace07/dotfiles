@@ -1,3 +1,3 @@
 # dotfiles
 
-Backups of my dots, do whatever you want with them.
+Backups of my former dots, do whatever you want with them.
