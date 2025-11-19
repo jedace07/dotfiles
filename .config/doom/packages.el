@@ -50,3 +50,5 @@
 (package! vlf)
 (package! nov)
 (package! pandoc-mode)
+(package! scanner)
+(package! ellama)
