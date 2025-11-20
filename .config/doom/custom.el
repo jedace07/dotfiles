@@ -22,6 +22,9 @@
      "https://www.theverge.com/rss/index.xml" "https://lifehacker.com/feed/rss"
      "https://rss.xcancel.com/fnaffangamenews/rss"))
  '(package-selected-packages '(systemd vterm))
+ '(transmission-refresh-modes
+   '(transmission-mode transmission-files-mode transmission-info-mode
+     transmission-peers-mode))
  '(vlf-application 'dont-ask))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
