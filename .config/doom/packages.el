@@ -51,5 +51,4 @@
 (package! nov)
 (package! pandoc-mode)
 (package! scanner)
-(package! ellama)
 (package! transmission)
