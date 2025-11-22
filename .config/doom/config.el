@@ -74,3 +74,21 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+;; OPTIONAL configuration
+(setq
+ gptel-model 'qwen3:30b
+ gptel-backend (gptel-make-ollama "Ollama"
+                 :host "localhost:11434"
+                 :stream t
+                 :models '(qwen3:30b)))
+(gptel-make-preset 'nonreason
+  :backend "Ollama"
+  :model 'qwen3:30b
+  :system 'default
+  :tools 'nil
+  :stream t
+  :temperature 1.0
+  :max-tokens nil
+  :use-context 'system
+  :track-media nil
+  :include-reasoning nil)
