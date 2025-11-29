@@ -15,7 +15,6 @@
      "https://www.youtube.com/feeds/videos.xml?channel_id=UC6cXXSd9InsR1kaH-JHJeNw"
      "https://www.youtube.com/feeds/videos.xml?channel_id=UC5UAwBUum7CPN5buc-_N1Fw"
      "https://www.phoronix.com/rss.php" "https://matrix.org/atom.xml"
-     "https://archlinux.org/feeds/news/" "https://www.omgubuntu.co.uk/feed"
      "https://itsfoss.com/rss/" "https://www.gamingonlinux.com/article_rss.php"
      "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"
      "http://rss.slashdot.org/Slashdot/slashdotMainatom"
