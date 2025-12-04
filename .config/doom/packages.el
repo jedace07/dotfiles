@@ -48,7 +48,6 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;; (unpin! t)
 (package! vlf)
-(package! nov)
 (package! pandoc-mode)
 (package! scanner)
 (package! transmission)
