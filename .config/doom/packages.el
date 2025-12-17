@@ -51,5 +51,4 @@
 (package! pandoc-mode)
 (package! scanner)
 (package! transmission)
-(package! ellama)
 (package! android-mode)
