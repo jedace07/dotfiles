@@ -52,3 +52,4 @@
 (package! scanner)
 (package! transmission)
 (package! android-mode)
+(package! ellama)
