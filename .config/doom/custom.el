@@ -20,6 +20,7 @@
      "http://rss.slashdot.org/Slashdot/slashdotMainatom"
      "https://www.theverge.com/rss/index.xml" "https://lifehacker.com/feed/rss"
      "https://rss.xcancel.com/fnaffangamenews/rss"))
+ '(ellama-show-reasoning nil)
  '(package-selected-packages '(systemd vterm))
  '(transmission-refresh-modes
    '(transmission-mode transmission-files-mode transmission-info-mode
@@ -33,3 +34,4 @@
  ;; If there is more than one, they won't work right.
  )
 (put 'erase-buffer 'disabled nil)
+(put 'customize-group 'disabled nil)
