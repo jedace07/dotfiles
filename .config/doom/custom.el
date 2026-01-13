@@ -20,8 +20,6 @@
      "http://rss.slashdot.org/Slashdot/slashdotMainatom"
      "https://www.theverge.com/rss/index.xml" "https://lifehacker.com/feed/rss"
      "https://rss.xcancel.com/fnaffangamenews/rss"))
- '(ellama-output-remove-reasoning nil)
- '(ellama-show-reasoning nil)
  '(package-selected-packages '(systemd vterm))
  '(transmission-refresh-modes
    '(transmission-mode transmission-files-mode transmission-info-mode
