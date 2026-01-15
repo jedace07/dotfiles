@@ -5,7 +5,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(elfeed-feeds
-   '("https://www.youtube.com/feeds/videos.xml?channel_id=UCgGw5WSITWvDISNjydXPW3A"
+   '("https://www.youtube.com/feeds/videos.xml?channel_id=UC12RXETZqrH50ybD8AyqGOQ"
+     "https://www.youtube.com/feeds/videos.xml?channel_id=UCnM02drQP-dF7WMgtJHR4Xw"
+     "https://www.youtube.com/feeds/videos.xml?channel_id=UCgGw5WSITWvDISNjydXPW3A"
      "https://www.youtube.com/feeds/videos.xml?channel_id=UCr9E7Yo606ns3ZsAW9RXtOg"
      "https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA"
      "https://www.youtube.com/feeds/videos.xml?channel_id=UCpFFItkfZz1qz5PpHpqzYBw"
