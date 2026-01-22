@@ -27,7 +27,6 @@
    '(transmission-mode transmission-files-mode transmission-info-mode
      transmission-peers-mode))
  '(vlf-application 'dont-ask))
-(setq org-journal-date-format "%Y-%m-%d %a")
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
