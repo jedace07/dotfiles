@@ -5,6 +5,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages '(systemd vterm))
+ '(pdf-misc-print-program-executable "/usr/bin/lp")
  '(transmission-refresh-modes
    '(transmission-mode transmission-files-mode transmission-info-mode
      transmission-peers-mode))
