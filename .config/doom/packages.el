@@ -52,4 +52,3 @@
 (package! scanner)
 (package! transmission)
 (package! ellama)
-(package! multi-vterm)
