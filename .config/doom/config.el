@@ -75,3 +75,10 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 ;; OPTIONAL configuration
+;; OPTIONAL configuration
+(setq
+ gptel-model 'qwen3:30b-a3b-instruct-2507-q4_K_M
+ gptel-backend (gptel-make-ollama "Ollama"
+                 :host "localhost:11434"
+                 :stream t
+                 :models '(qwen3:30b-a3b-instruct-2507-q4_K_M)))
