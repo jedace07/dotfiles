@@ -10,7 +10,7 @@
  '(pdf-misc-print-program-executable "/usr/bin/lp")
  '(transmission-refresh-modes
    '(transmission-mode transmission-files-mode transmission-info-mode
-                       transmission-peers-mode))
+     transmission-peers-mode))
  '(vlf-application 'dont-ask))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
