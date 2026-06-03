@@ -8,6 +8,11 @@
  '(image-use-external-converter t)
  '(package-selected-packages '(systemd vterm))
  '(pdf-misc-print-program-executable "/usr/bin/lp")
+ '(ellama-provider
+   '(make-llm-openai-compatible
+     :url "http://0.0.0.0:8080"
+     :chat-model "unsloth/gemma-4-E4B-it-GGUF"
+     :embedding-model "unsloth/gemma-4-E4B-it-GGUF"))
  '(transmission-refresh-modes
    '(transmission-mode transmission-files-mode transmission-info-mode
      transmission-peers-mode))
