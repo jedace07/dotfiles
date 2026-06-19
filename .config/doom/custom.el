@@ -11,8 +11,7 @@
  '(ellama-provider
    '(make-llm-openai-compatible
      :url "http://0.0.0.0:8080"
-     :chat-model "unsloth/gemma-4-E4B-it-GGUF"
-     :embedding-model "unsloth/gemma-4-E4B-it-GGUF"))
+     :chat-model "unsloth/Qwen3.6-35B-A3B-GGUF"))
  '(transmission-refresh-modes
    '(transmission-mode transmission-files-mode transmission-info-mode
      transmission-peers-mode))
