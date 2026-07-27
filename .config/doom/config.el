@@ -76,3 +76,10 @@
 ;; they are implemented.
 ;; OPTIONAL configuration
 ;; OPTIONAL configuration
+(after! gptel
+  gptel-model   'Qwen3.6-35B-A3B
+  gptel-backend (gptel-make-openai "llama-cpp"
+                  :stream t
+                  :protocol "http"
+                  :host "localhost:8080"
+                  :models '(Qwen3.6-35B-A3B)))
