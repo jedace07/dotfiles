@@ -83,3 +83,10 @@
                   :protocol "http"
                   :host "localhost:8080"
                   :models '(Qwen3.6-35B-A3B)))
+(after! emms-player-mpv
+  (setq emms-player-mpv-command-name "flatpak"
+        emms-player-mpv-parameters
+        '("run" "io.mpv.Mpv"
+          "--quiet"
+          "--really-quiet"
+          "--no-audio-display")))
