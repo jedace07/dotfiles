@@ -77,7 +77,7 @@
 ;; OPTIONAL configuration
 ;; OPTIONAL configuration
 (after! gptel
-  gptel-model   'Qwen3.6-35B-A3B
+  gptel-model   'Qwen3.6-35B-A3B-MTP
   gptel-backend (gptel-make-openai "llama-cpp"
                   :stream t
                   :protocol "http"
