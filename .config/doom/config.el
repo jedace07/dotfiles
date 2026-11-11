@@ -81,7 +81,7 @@
   gptel-backend (gptel-make-openai "llama-cpp"
                   :stream t
                   :protocol "http"
-                  :host "localhost:8080"
+                  :host "localhost:9931"
                   :models '(Qwen3.6-35B-A3B)))
 
 (after! emms-player-mpv
