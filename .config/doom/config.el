@@ -82,7 +82,9 @@
                   :stream t
                   :protocol "http"
                   :host "localhost:9931"
-                  :models '(Qwen3.6-35B-A3B)))
+                  :models '(Qwen3.6-35B-A3B))
+  (gptel-make-gh-copilot "Copilot" :host "api.githubcopilot.com")
+  (gptel-make-openai-oauth "sam altman"))
 
 (after! emms-player-mpv
   (setq emms-player-mpv-command-name "flatpak"
