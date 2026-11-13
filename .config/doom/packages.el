@@ -49,3 +49,4 @@
 ;; (unpin! t)
 (package! vlf)
 (package! pandoc-mode)
+(package! gptel-agent)
