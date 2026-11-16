@@ -101,3 +101,30 @@
 
 (after! dockerfile-mode
   (setq dockerfile-docker-command "podman"))
+
+(defun my/ghostel-toggle ()
+  "Toggle Ghostel in a persistent bottom window."
+  (interactive)
+  (require 'ghostel)
+  (let* ((buffer (get-buffer "*ghostel*"))
+         (window (and buffer (get-buffer-window buffer))))
+    (cond
+     (window
+      (delete-window window))
+     (t
+      (unless buffer
+        (save-window-excursion
+          (ghostel))
+        (setq buffer (get-buffer "*ghostel*")))
+      (unless buffer
+        (user-error "Ghostel buffer not found"))
+      (select-window
+       (display-buffer-in-side-window
+        buffer
+        '((side . bottom)
+          (slot . 0)
+          (window-height . 0.25))))))))
+
+(map! :leader
+      :desc "Toggle Ghostel"
+      "o t" #'my/ghostel-toggle)

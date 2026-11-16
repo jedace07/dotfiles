@@ -50,3 +50,4 @@
 (package! vlf)
 (package! pandoc-mode)
 (package! gptel-agent)
+(package! ghostel)
